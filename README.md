@@ -34,3 +34,17 @@ Here's a clear table to organize the information:
 | Module 5: Will Your Future Be in Cybersecurity?  | expand   | expand  |
 | Introduction to Cybersecurity: Course Final Exam | expand   | expand  |
 
+
+
+postgres=# \l
+                              List of databases
+   Name    |  Owner   | Encoding | Collate    |   Ctype    | Access privileges 
+-----------+----------+----------+-----------+------------+-------------------
+ postgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
+ template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres      +
+           |          |          |            |            | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres      +
+           |          |          |            |            | postgres=CTc/postgres
+(3 rows)
+
+
