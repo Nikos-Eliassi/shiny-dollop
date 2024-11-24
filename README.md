@@ -47,4 +47,5 @@ postgres=# \l
            |          |          |            |            | postgres=CTc/postgres
 (3 rows)
 
-
+I spend alot of time for at all. I had spend much time in solver problems and restart.
+I followed structures and asked of classmate for help and advice. I did two test from ZAP. I scan attack twise and I restart again active attack and spider. I did HAR test twise and download ZAP files. 
