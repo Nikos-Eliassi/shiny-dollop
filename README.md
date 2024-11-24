@@ -47,5 +47,4 @@ postgres=# \l
            |          |          |            |            | postgres=CTc/postgres
 (3 rows)
 
-I spend alot of time for at all. I had spend much time in solver problems and restart.
-I followed structures and asked of classmate for help and advice. I did two test from ZAP. I scan attack twise and I restart again active attack and spider. I did HAR test twise and download ZAP files. 
+I did everything from scratch. I installed almost everything and spent a lot of time on new tasks. The tasks were challenging but interesting. I created Docker Desktop and wrote commands in PowerShell, Docker, and Visual Studio Code. I created files, set up Deno, and used the ZAP program. I downloaded files, activated attacks in ZAP, generated reports, and imported HAR files. I also used Google Chrome Developer tools. Finally, I transferred the files to GitHub using GitHub Desktop. A lot of details were handled, and I learned a lot from the tasks. Perhaps the most challenging part was that AI, including Copilot, did not provide comprehensive answers, and some answers were partially incorrect.
