@@ -1,13 +1,12 @@
 #Logbook
+3.11.2024  Link to the Git repo + Logbook
+Submission:
 
- 30.10.2024, 2h, Kick-off lecture, lecture recording
+Link to the GitHub repository: https://github.com/Nikos-Eliassi/shiny-dollop
 
- | Date  | Used hours |Subject(s) |  output |
-| :---        |    |:---:              |    ---: |    
-| 30.10.2024  | 2  | Kick-off lecture  | lecture |
-| 31.10.2024  | 2  | Kick-off lecture  | lecture |
-| 30.10.2024  | 2  | Kick-off lecture  | lecture |
-| 30.10.2024  | 2  | Kick-off lecture  | lecture |
+Logbook:
+
+The task has been completed successfully according to the instructions. The GitHub repository has been updated and is accessible to the teacher. 
 
 https://portswigger.net/users/youraccount/licenses
 | Name                  | date/time      | Type     |  Solved  |
@@ -16,7 +15,8 @@ https://portswigger.net/users/youraccount/licenses
 | Topic Authenticatio   | Nov/10         | table    | done     |
 | Topic Access control  | Nov/10         | table    | done     |
 
-17 November 2024
+
+### 17 November 2024 Introduction to the portswigger environment
 
 
 Progress:
@@ -49,7 +49,8 @@ Here's a clear table to organize the information:
 | Introduction to Cybersecurity: Course Final Exam | expand   | expand  |
 
 
-24.Nov,2024
+24.Nov,2024 
+The Booking system project → Phase 1
 
 Development of the Registration Page: Created and tested a registration page using Docker and Deno environments. The goal was to ensure a fully functional and tested registration page as part of the booking system.
 
@@ -65,7 +66,7 @@ GitHub Documentation: Updated all findings and test results in the logbook and t
 
 
 
-1.Dec.2024 Submission:
+1.Dec.2024 Submission: The Booking system project → Phase 2
 
 Summary:
 
@@ -75,7 +76,7 @@ The work on Phase 1 of the Booking System Project provided a strong foundation f
 
 The registration page (localhost:8000/register) was successfully implemented and tested. However, I encountered issues with the login functionality and was unable to log in as expected. Despite this, I followed all other steps, including functionality and vulnerability tests for the login page and the entire system (index, login, register). Reports were generated using Checkmarx ZAP, converted to MD format, and added to the repository.
 
-Next, I will focus on debugging the login feature and improving it in the upcoming test cycle. The assignment has been submitted with the required updates and documentation.
+Next, I will focus on debugging the login feature and improving it in the upcoming test cycle. The assignment has been submitted with the required updates and documentation. I have asked of my classmade.
 
 
 I apdate my logbook better SOON.
