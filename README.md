@@ -17,6 +17,8 @@ https://portswigger.net/users/youraccount/licenses
 | Topic Access control  | Nov/10         | table    | done     |
 
 17 November 2024
+
+
 Progress:
 Completed 3 labs using PortSwigger and ZAP:
 SQL Injection (e.g., bypassing WHERE clause constraints).
@@ -60,9 +62,10 @@ Automated Security Testing: Performed automated scans on the server (localhost:8
 GitHub Documentation: Updated all findings and test results in the logbook and the GitHub repository. I got help from classmate.
 
 
-1.Dec.2024 Submission:
 
-Link to the repo: https://github.com/Nikos-Eliassi/shiny-dollop
+
+
+1.Dec.2024 Submission:
 
 Summary:
 
