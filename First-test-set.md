@@ -6,10 +6,10 @@ ZAP by [Checkmarx](https://checkmarx.com/).
 ## Summary of Alerts
 
 | Risk Level | Number of Alerts |
-| --- | --- |
-| High | 0 |
-| Medium | 2 |
-| Low | 1 |
+| ---           | --- |
+| High          | 0 |
+| Medium        | 2 |
+| Low           | 1 |
 | Informational | 0 |
 
 
@@ -17,11 +17,11 @@ ZAP by [Checkmarx](https://checkmarx.com/).
 
 ## Alerts
 
-| Name | Risk Level | Number of Instances |
+| Name                                         | Risk Level | Number of Instances |
 | --- | --- | --- |
-| Content Security Policy (CSP) Header Not Set | Medium | 1 |
-| Missing Anti-clickjacking Header | Medium | 1 |
-| X-Content-Type-Options Header Missing | Low | 2 |
+| Content Security Policy (CSP) Header Not Set | Medium     | 1 |
+| Missing Anti-clickjacking Header             | Medium     | 1 |
+| X-Content-Type-Options Header Missing        | Low        | 2 |
 
 
 
@@ -39,7 +39,6 @@ ZAP by [Checkmarx](https://checkmarx.com/).
 ### Description
 
 Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.
-
 * URL: http://localhost:8000/register
   * Method: `GET`
   * Parameter: ``
