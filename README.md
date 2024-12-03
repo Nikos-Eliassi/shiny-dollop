@@ -79,7 +79,9 @@ The registration page (localhost:8000/register) was successfully implemented and
 Next, I will focus on debugging the login feature and improving it in the upcoming test cycle. The assignment has been submitted with the required updates and documentation. I have asked of my classmade.
 
 
-I apdate my logbook better SOON.
+In this Grade 2 project, The Booking System Project → Phase 2 Accepted, I focused on the login page on localhost:8000. Everything worked perfectly both from Docker and in Visual Studio Code. By watching tutorial videos, I corrected commands and succeeded. After a long effort, I got guidance from a friend, and the fixes were actually made quite quickly. After that, I accessed ZAP. I performed a couple of attacks and printed a report. In one of the reports, there was the entry: "User Agent Fuzzer | Informational | 24 |". Then, I printed a HAR report. Initially, I faced challenges with Chrome, but I managed to get VAR results using Microsoft Edge.
+
+The tasks were challenging and required a lot of effort, but I learned more effectively by fixing errors along the way.
 
 
 
