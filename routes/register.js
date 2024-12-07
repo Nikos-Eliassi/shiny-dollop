@@ -16,7 +16,7 @@ const registerSchema = z.object({
 
 // Helper function to check if a username (email) already exists
 async function isUniqueUsername(email) {
-  const result = await client.queryArray(`SELECT username FROM zephyr_users WHERE username = $1`, [email]);
+  const result = await client.queryArray(`SELECT username FROM xyz789_users WHERE username = $1`, [email]);
   return result.rows.length === 0;
 }
 
@@ -41,7 +41,7 @@ export async function registerUser(c) {
     const hashedPassword = await bcrypt.hash(password, salt);
 
     // Insert the new user into the database
-    await client.queryArray(`INSERT INTO zephyr_users (username, password_hash, role, birthdate) VALUES ($1, $2, $3, $4)`, [username, hashedPassword, role, birthdate]);
+    await client.queryArray(`INSERT INTO xyz789_users (username, password_hash, role, birthdate) VALUES ($1, $2, $3, $4)`, [username, hashedPassword, role, birthdate]);
 
     // Success response, redirect to the index page
     return new Response(null, { status: 302, headers: { Location: "/", }, });
