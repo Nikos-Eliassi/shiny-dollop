@@ -1,6 +1,7 @@
 import client from "../db/db.js";
 import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts"; // For password comparison
 import { z } from "https://deno.land/x/zod@v3.16.1/mod.ts"; // For validation
+import { createSession } from "../sessionService.js"; // For sessions
 
 // Zod schema for login validation
 const loginSchema = z.object({
@@ -41,10 +42,13 @@ export async function loginUser(c, info) {
 
         // Compare provided password with the stored hashed password
         const passwordMatches = await bcrypt.compare(password, storedPasswordHash);
-
         if (!passwordMatches) {
             return new Response("Invalid email or password", { status: 400 });
         }
+
+        // Create session
+        const session_id = creatSession({ username: storedUsername, role });
+
         // Log successful login
         const ipAddress = info.remoteAddr.hostname;
         await logLogin(userUUID, ipAddress);
