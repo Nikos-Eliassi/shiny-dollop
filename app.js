@@ -1,6 +1,7 @@
 import { serve } from "https://deno.land/std@0.199.0/http/server.ts"
 import { loginUser } from "./routes/login.js";
 import { registerUser } from "./routes/register.js";
+import { getSession, destroySession, getCookieValue } from "./sessionService.js"; // For sessions
  
 // Serve static files
 async function serveStaticFile(path, contentType) {
@@ -31,6 +32,10 @@ async function handler(req, info) {
  
   // Route: Registration page
   if (url.pathname === "/register" && req.method === "GET") {
+    const session = getSession(req); 
+    if (session) {  
+        console.log(session);
+    }    
       return await serveStaticFile("./views/register.html", "text/html");
   }
  
@@ -46,7 +51,7 @@ async function handler(req, info) {
   }
  
   // Route: Handle user login
-  if (url.pathname === "/login" && req.method === "POST") {
+  if (url.pathname === "/login" && req.method === "GET") {
       const formData = await req.formData();
       return await loginUser(formData, info);
   }
