@@ -86,4 +86,25 @@ The tasks were challenging and required a lot of effort, but I learned more effe
 
 
 
+Task: The Booking System Project → Phase 3 (8.12.2024)
 
+I started by watching the lecture on 25.11.2024.
+I read the handouts and followed the videos. I didn’t manage to complete the reservation all the way to the end. I had forgotten to download the file TheBookingSystemVer1.zip because I had downloaded my own version, which didn’t support reservations. Eventually, I deleted the content in Visual Studio Code and started completely from scratch.
+
+Steps:
+
+I downloaded Postgres in Docker as booking_system_db_ver2 with port 5432:5432.
+I moved to app.js and started it with deno run.
+I logged in to localhost:8000.
+I went back to Docker login_logs; the booking system → the updated index page.
+I uploaded sessionservice.js session file and added it → commit. The database didn’t need to be reloaded with sessionservice.js.
+On localhost:8000 → I opened Developer Tools and found the application session:id.
+I uploaded index.page.js, reservation.js, resource.js.
+I downloaded TheBookingSystemVer1.zip from the teacher.
+I opened it and ran it in Docker as booking_system_db_ver2.
+I moved back to Visual Studio Code. The localhost now looked different, allowing me to make reservations.
+At first, 
+I had to register again. It didn’t accept identical passwords, and age had to be over 18 years.
+I added a new resource, then added a new reservation.
+
+It took me 35 hours to complete this task. My neck and shoulders are stiff, and I got a migraine. I felt frustrated because small mistakes turned into bigger ones. Only today did I fully utilize the teacher’s video and materials. I learned how to complete the task perfectly.
