@@ -108,3 +108,13 @@ I had to register again. It didn’t accept identical passwords, and age had to 
 I added a new resource, then added a new reservation.
 
 It took me 35 hours to complete this task. My neck and shoulders are stiff, and I got a migraine. I felt frustrated because small mistakes turned into bigger ones. Only today did I fully utilize the teacher’s video and materials. I learned how to complete the task perfectly.
+
+
+
+The 5 most important points
+
+Weak password management → Fix hashing.
+Insufficient access control → RBAC must be implemented.
+Lack of input validation → Add XSS protection.
+Session vulnerability → Add a timeout and flags.
+Open API → Authentication must be added.
