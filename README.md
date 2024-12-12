@@ -118,3 +118,12 @@ Insufficient access control → RBAC must be implemented.
 Lack of input validation → Add XSS protection.
 Session vulnerability → Add a timeout and flags.
 Open API → Authentication must be added.
+
+The Booking system project → Phase 4 (15.12.2024)
+
+4. Answer to the Questions
+Is the lack of consent a problem?
+Yes, the lack of consent is problematic because GDPR requires clear and unambiguous user consent for processing personal data. Simply accepting the terms of service does not cover all situations, such as collecting data for analytics or marketing purposes. Consent gives users control over their data and enhances trust in the system. Its absence can lead to legal violations and a poor user experience, as user rights remain unprotected.
+
+Example of a page where consent is required:
+I chose the BBC cookies management page (https://www.bbc.com/usingthebbc/cookies/). On this page, users are asked to consent to the use of cookies because they collect personal information such as browsing activity and IP addresses. Cookies are used for analytics, personalization, and advertising, so user rights require obtaining consent.
