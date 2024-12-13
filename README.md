@@ -127,3 +127,7 @@ Yes, the lack of consent is problematic because GDPR requires clear and unambigu
 
 Example of a page where consent is required:
 I chose the BBC cookies management page (https://www.bbc.com/usingthebbc/cookies/). On this page, users are asked to consent to the use of cookies because they collect personal information such as browsing activity and IP addresses. Cookies are used for analytics, personalization, and advertising, so user rights require obtaining consent.
+
+
+AddedTheBookingSystemVer2. I have forgatten to link this. 
+https://github.com/Nikos-Eliassi/TheBookingSystemVer2/blob/main/README.md
