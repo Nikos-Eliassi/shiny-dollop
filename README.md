@@ -44,9 +44,9 @@ Here's a clear table to organize the information:
 | Module 1: Introduction to Cybersecurity          | 53%      | expand  |
 | Module 2: Attacks, Concepts and Techniques       | 61%      | expand  |
 | Module 3: Protecting your Data and Privacy       | 72%      | expand  |
-| Module 4: Protecting the Organization            | 5%       | expand  |
-| Module 5: Will Your Future Be in Cybersecurity?  | expand   | expand  |
-| Introduction to Cybersecurity: Course Final Exam | expand   | expand  |
+| Module 4: Protecting the Organization            | 55%      | expand  |
+| Module 5: Will Your Future Be in Cybersecurity?  | 100%     | expand  |
+| Introduction to Cybersecurity: Course Final Exam | 80%      | expand  |
 
 
 24.Nov,2024 
